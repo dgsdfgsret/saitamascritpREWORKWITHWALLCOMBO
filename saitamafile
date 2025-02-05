@@ -851,7 +851,7 @@ local tool = Instance.new("Tool")
     local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
     local humanoid = character:WaitForChild("Humanoid")
     local runService = game:GetService("RunService")
-    local movementSpeed = 700
+    local movementSpeed = 300
 
     local animation = Instance.new("Animation")
     animation.AnimationId = "rbxassetid://18897115785" 
